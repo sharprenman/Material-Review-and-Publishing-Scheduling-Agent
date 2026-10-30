@@ -1,0 +1,4 @@
+$ uv run ruff format --check src tests scripts
+40 files already formatted
+
+exit_code=0

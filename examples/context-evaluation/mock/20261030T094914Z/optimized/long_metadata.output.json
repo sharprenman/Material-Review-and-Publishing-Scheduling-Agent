@@ -1,0 +1,26 @@
+{
+  "request_id": "long_metadata",
+  "run_id": "b4d01f37-fa62-431d-9367-28e1cb6707a3",
+  "thread_id": "0b286bf6-101c-4c2c-9170-1a3f17d4dff7",
+  "mode": "mock",
+  "execution": "completed",
+  "requested_time": "2026-11-01T16:00:00+08:00",
+  "review": {
+    "status": "passed",
+    "missing": [],
+    "risks": []
+  },
+  "proposal": null,
+  "save_status": "saved",
+  "draft": {
+    "draft_id": "ccb13c37-83cb-4c7a-ac96-bf5f77b2b81c",
+    "request_id": "long_metadata",
+    "material_id": "M04",
+    "channel": "video",
+    "account": "team",
+    "time": "2026-11-01T16:00:00+08:00"
+  },
+  "error": null,
+  "model_calls": 4,
+  "tool_calls": 4
+}

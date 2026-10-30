@@ -1,0 +1,30 @@
+# Secrets: never commit local credentials
+.env
+.env.*
+!.env.example
+api_key
+api_key.*
+*.pem
+
+# Python and tools
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local runtime state
+var/
+*.sqlite
+*.sqlite3
+*.db
+.DS_Store
+
+# Local IDE files
+.idea/

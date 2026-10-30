@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "material-review-scheduling-agent"
+version = "0.1.0"
+description = "Material review and publishing schedule draft agent (assessment 1)"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "httpx>=0.28,<1",
+    "langgraph>=1,<2",
+    "langgraph-checkpoint-sqlite>=3,<4",
+    "pydantic>=2,<3",
+    "python-dotenv>=1,<2",
+    "typer>=0.16,<1",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers --strict-config"
+markers = ["live: explicit opt-in paid DeepSeek test"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[dependency-groups]
+dev = [
+    "build>=1,<2",
+    "mypy>=1.15,<2",
+    "pytest>=8,<9",
+    "ruff>=0.11,<1",
+]
+
+[tool.mypy]
+python_version = "3.12"
+check_untyped_defs = true
+ignore_missing_imports = true
+files = ["src"]
+
+[project.scripts]
+material-scheduler = "material_scheduler.interfaces.cli:app"

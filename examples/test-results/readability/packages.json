@@ -1,0 +1,12 @@
+[
+  {
+    "file": "dist/material_review_scheduling_agent-0.1.0.tar.gz",
+    "sha256": "e8a68228cc05cb79c79fc9ec26b001f5e470096d515a7e9a590ad4f8de8c9887",
+    "credential_scan": "passed"
+  },
+  {
+    "file": "dist/material_review_scheduling_agent-0.1.0-py3-none-any.whl",
+    "sha256": "bfb4d30df2263a9c151c9f24f7127b9c9b3ccebdd03605f0eff0f93e75ba392d",
+    "credential_scan": "passed"
+  }
+]

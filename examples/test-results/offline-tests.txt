@@ -1,0 +1,4 @@
+..........................s.......                                       [100%]
+=========================== short test summary info ============================
+SKIPPED [1] tests/live/test_deepseek_paths.py:12: 显式设置 RUN_LIVE=1 才调用真实API
+33 passed, 1 skipped in 0.59s

@@ -1,0 +1,40 @@
+$ /Users/xyh/Desktop/小影笔试项目/var/hardening-20261030T231921/installed/bin/material-scheduler --help
+                                                                                
+ Usage: material-scheduler [OPTIONS] COMMAND [ARGS]...                          
+                                                                                
+ 素材审核排期：仅保存草稿，绝不发布                                             
+                                                                                
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --data-dir                               <path>            [default: data]   │
+│ --runtime-dir                            <path>            [default: var]    │
+│ --mode                                   <mock|live>       [default: mock]   │
+│ --json                                                     输出稳定JSON      │
+│ --context-budget                         <int range>       上下文大小估算上… │
+│                                          [512<=x<=128000]  [default: 16000]  │
+│ --memory-top-k                           <int range>       [default: 3]      │
+│                                          [0<=x<=5]                           │
+│ --context            --baseline-cont…                      启用上下文优化；… │
+│                                                            [default:         │
+│                                                            context]          │
+│ --install-comple…                                          Install           │
+│                                                            completion for    │
+│                                                            the current       │
+│                                                            shell.            │
+│ --show-completion                                          Show completion   │
+│                                                            for the current   │
+│                                                            shell, to copy it │
+│                                                            or customize the  │
+│                                                            installation.     │
+│ --help                                                     Show this message │
+│                                                            and exit.         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ───────────────────────────────────────────────────────────────────╮
+│ run                                                                          │
+│ confirm                                                                      │
+│ status                                                                       │
+│ draft                                                                        │
+│ trace    查看步骤、工具参数、实际观察、下一动作与有来源的依据。              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+exit_code=0

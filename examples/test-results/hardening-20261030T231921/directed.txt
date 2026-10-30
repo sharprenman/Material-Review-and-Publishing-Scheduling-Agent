@@ -1,0 +1,5 @@
+$ uv run pytest tests/unit/test_tools.py tests/unit/test_context.py tests/unit/test_agent_budget.py tests/integration/test_confirmation_resume.py tests/integration/test_memory.py tests/acceptance/test_cli.py -q -p no:cacheprovider
+.....................................................................    [100%]
+69 passed in 1.37s
+
+exit_code=0

@@ -1,0 +1,717 @@
+$ uv build --out-dir /Users/xyh/Desktop/小影笔试项目/examples/test-results/hardening-20261030T231921/dist
+Building source distribution...
+running egg_info
+writing src/material_review_scheduling_agent.egg-info/PKG-INFO
+writing dependency_links to src/material_review_scheduling_agent.egg-info/dependency_links.txt
+writing entry points to src/material_review_scheduling_agent.egg-info/entry_points.txt
+writing requirements to src/material_review_scheduling_agent.egg-info/requires.txt
+writing top-level names to src/material_review_scheduling_agent.egg-info/top_level.txt
+reading manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+running sdist
+running egg_info
+writing src/material_review_scheduling_agent.egg-info/PKG-INFO
+writing dependency_links to src/material_review_scheduling_agent.egg-info/dependency_links.txt
+writing entry points to src/material_review_scheduling_agent.egg-info/entry_points.txt
+writing requirements to src/material_review_scheduling_agent.egg-info/requires.txt
+writing top-level names to src/material_review_scheduling_agent.egg-info/top_level.txt
+reading manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+running check
+creating material_review_scheduling_agent-0.1.0
+creating material_review_scheduling_agent-0.1.0/data
+creating material_review_scheduling_agent-0.1.0/docs
+creating material_review_scheduling_agent-0.1.0/examples
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline/data
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized/data
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline/data
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized/data
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline/data
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized/data
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/long-fix-verification
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+creating material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+creating material_review_scheduling_agent-0.1.0/examples/inputs
+creating material_review_scheduling_agent-0.1.0/examples/outputs/history/first-confirmation
+creating material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+creating material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+creating material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101248Z
+creating material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+creating material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+creating material_review_scheduling_agent-0.1.0/examples/outputs/live
+creating material_review_scheduling_agent-0.1.0/examples/outputs/mock
+creating material_review_scheduling_agent-0.1.0/examples/reports
+creating material_review_scheduling_agent-0.1.0/examples/test-results
+creating material_review_scheduling_agent-0.1.0/examples/test-results/context
+creating material_review_scheduling_agent-0.1.0/examples/test-results/hardening-20261030T231921
+creating material_review_scheduling_agent-0.1.0/examples/test-results/readability
+creating material_review_scheduling_agent-0.1.0/examples/traces/history/first-confirmation
+creating material_review_scheduling_agent-0.1.0/examples/traces/history/live-20261029T092011Z
+creating material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101144Z
+creating material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101248Z
+creating material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T092846Z
+creating material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T101400Z
+creating material_review_scheduling_agent-0.1.0/examples/traces/live
+creating material_review_scheduling_agent-0.1.0/examples/traces/mock
+creating material_review_scheduling_agent-0.1.0/scripts
+creating material_review_scheduling_agent-0.1.0/src/material_review_scheduling_agent.egg-info
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler/application
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler/application/agent
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler/domain
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure/model
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure/persistence
+creating material_review_scheduling_agent-0.1.0/src/material_scheduler/interfaces
+creating material_review_scheduling_agent-0.1.0/tests
+creating material_review_scheduling_agent-0.1.0/tests/acceptance
+creating material_review_scheduling_agent-0.1.0/tests/integration
+creating material_review_scheduling_agent-0.1.0/tests/live
+creating material_review_scheduling_agent-0.1.0/tests/unit
+copying files to material_review_scheduling_agent-0.1.0...
+copying .env.example -> material_review_scheduling_agent-0.1.0
+copying .python-version -> material_review_scheduling_agent-0.1.0
+copying MANIFEST.in -> material_review_scheduling_agent-0.1.0
+copying README.md -> material_review_scheduling_agent-0.1.0
+copying pyproject.toml -> material_review_scheduling_agent-0.1.0
+copying uv.lock -> material_review_scheduling_agent-0.1.0
+copying data/README.md -> material_review_scheduling_agent-0.1.0/data
+copying data/materials.json -> material_review_scheduling_agent-0.1.0/data
+copying data/rules.json -> material_review_scheduling_agent-0.1.0/data
+copying data/schedules.json -> material_review_scheduling_agent-0.1.0/data
+copying docs/01-requirements.md -> material_review_scheduling_agent-0.1.0/docs
+copying docs/02-solution.md -> material_review_scheduling_agent-0.1.0/docs
+copying docs/03-evaluation.md -> material_review_scheduling_agent-0.1.0/docs
+copying docs/04-ai-usage.md -> material_review_scheduling_agent-0.1.0/docs
+copying docs/05-retrospective.md -> material_review_scheduling_agent-0.1.0/docs
+copying docs/06-development-handoff.md -> material_review_scheduling_agent-0.1.0/docs
+copying examples/README.md -> material_review_scheduling_agent-0.1.0/examples
+copying examples/context-evaluation/live/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live
+copying examples/context-evaluation/live/20261030T095009Z/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z
+copying examples/context-evaluation/live/20261030T095009Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z
+copying examples/context-evaluation/live/20261030T095009Z/baseline/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/seed_missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline
+copying examples/context-evaluation/live/20261030T095009Z/baseline/data/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline/data
+copying examples/context-evaluation/live/20261030T095009Z/baseline/data/materials.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline/data
+copying examples/context-evaluation/live/20261030T095009Z/baseline/data/rules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline/data
+copying examples/context-evaluation/live/20261030T095009Z/baseline/data/schedules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/baseline/data
+copying examples/context-evaluation/live/20261030T095009Z/optimized/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/seed_missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized
+copying examples/context-evaluation/live/20261030T095009Z/optimized/data/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized/data
+copying examples/context-evaluation/live/20261030T095009Z/optimized/data/materials.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized/data
+copying examples/context-evaluation/live/20261030T095009Z/optimized/data/rules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized/data
+copying examples/context-evaluation/live/20261030T095009Z/optimized/data/schedules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095009Z/optimized/data
+copying examples/context-evaluation/live/20261030T095516Z/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z
+copying examples/context-evaluation/live/20261030T095516Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z
+copying examples/context-evaluation/live/20261030T095516Z/baseline/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/seed_missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline
+copying examples/context-evaluation/live/20261030T095516Z/baseline/data/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline/data
+copying examples/context-evaluation/live/20261030T095516Z/baseline/data/materials.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline/data
+copying examples/context-evaluation/live/20261030T095516Z/baseline/data/rules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline/data
+copying examples/context-evaluation/live/20261030T095516Z/baseline/data/schedules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/baseline/data
+copying examples/context-evaluation/live/20261030T095516Z/optimized/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/seed_missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized
+copying examples/context-evaluation/live/20261030T095516Z/optimized/data/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized/data
+copying examples/context-evaluation/live/20261030T095516Z/optimized/data/materials.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized/data
+copying examples/context-evaluation/live/20261030T095516Z/optimized/data/rules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized/data
+copying examples/context-evaluation/live/20261030T095516Z/optimized/data/schedules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095516Z/optimized/data
+copying examples/context-evaluation/live/20261030T095915738103Z/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z
+copying examples/context-evaluation/live/20261030T095915738103Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/seed_missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/data/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline/data
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/data/materials.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline/data
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/data/rules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline/data
+copying examples/context-evaluation/live/20261030T095915738103Z/baseline/data/schedules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/baseline/data
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/seed_missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/data/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized/data
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/data/materials.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized/data
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/data/rules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized/data
+copying examples/context-evaluation/live/20261030T095915738103Z/optimized/data/schedules.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/20261030T095915738103Z/optimized/data
+copying examples/context-evaluation/live/long-fix-verification/output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/long-fix-verification
+copying examples/context-evaluation/live/long-fix-verification/trace.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/live/long-fix-verification
+copying examples/context-evaluation/mock/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock
+copying examples/context-evaluation/mock/20261030T094914Z/README.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z
+copying examples/context-evaluation/mock/20261030T094914Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/baseline/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/baseline
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/conflict.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/conflict.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/conflict.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/conflict.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/conflict.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/long_metadata.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/long_metadata.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/long_metadata.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/long_metadata.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/long_metadata.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/long_metadata.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/missing.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/missing.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/missing.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/missing.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/normal.initial.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/normal.input.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/normal.md -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/normal.metrics.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/normal.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/seed_missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/context-evaluation/mock/20261030T094914Z/optimized/seed_missing.output.json -> material_review_scheduling_agent-0.1.0/examples/context-evaluation/mock/20261030T094914Z/optimized
+copying examples/inputs/changed.json -> material_review_scheduling_agent-0.1.0/examples/inputs
+copying examples/inputs/conflict.json -> material_review_scheduling_agent-0.1.0/examples/inputs
+copying examples/inputs/missing.json -> material_review_scheduling_agent-0.1.0/examples/inputs
+copying examples/inputs/normal.json -> material_review_scheduling_agent-0.1.0/examples/inputs
+copying examples/inputs/risk.json -> material_review_scheduling_agent-0.1.0/examples/inputs
+copying examples/inputs/save_failure.json -> material_review_scheduling_agent-0.1.0/examples/inputs
+copying examples/outputs/history/first-confirmation/confirmed_after_restart.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/first-confirmation
+copying examples/outputs/history/live-20261029T092011Z/changed.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/changed_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/conflict.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/conflict_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/duplicate.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/missing.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/missing_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/normal.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/normal_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/risk.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/risk_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/save_failure.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-20261029T092011Z/save_failure_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-20261029T092011Z
+copying examples/outputs/history/live-before-20261029T101144Z/changed.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/changed_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/confirmed_after_restart.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/conflict.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/conflict_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/duplicate.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/missing.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/missing_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/normal.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/normal_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/risk.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/risk_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/save_failure.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101144Z/save_failure_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101144Z
+copying examples/outputs/history/live-before-20261029T101248Z/duplicate.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101248Z
+copying examples/outputs/history/live-before-20261029T101248Z/missing.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101248Z
+copying examples/outputs/history/live-before-20261029T101248Z/normal.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101248Z
+copying examples/outputs/history/live-before-20261029T101248Z/normal_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/live-before-20261029T101248Z
+copying examples/outputs/history/mock-before-20261029T092846Z/changed.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/changed_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/confirmed_after_restart.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/conflict.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/conflict_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/duplicate.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/missing.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/missing_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/normal.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/normal_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/risk.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/risk_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/save_failure.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T092846Z/save_failure_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T092846Z
+copying examples/outputs/history/mock-before-20261029T101400Z/changed.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/changed_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/confirmed_after_restart.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/conflict.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/conflict_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/duplicate.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/manifest.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/missing.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/missing_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/normal.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/normal_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/risk.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/risk_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/save_failure.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/history/mock-before-20261029T101400Z/save_failure_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/history/mock-before-20261029T101400Z
+copying examples/outputs/live/changed.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/changed_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/confirmed_after_restart.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/conflict.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/conflict_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/duplicate.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/manifest.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/missing.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/missing_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/normal.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/normal_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/risk.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/risk_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/save_failure.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/live/save_failure_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/live
+copying examples/outputs/mock/changed.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/changed_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/confirmed_after_restart.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/conflict.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/conflict_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/duplicate.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/manifest.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/missing.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/missing_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/normal.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/normal_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/risk.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/risk_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/save_failure.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/outputs/mock/save_failure_database.json -> material_review_scheduling_agent-0.1.0/examples/outputs/mock
+copying examples/reports/live.md -> material_review_scheduling_agent-0.1.0/examples/reports
+copying examples/reports/mock.md -> material_review_scheduling_agent-0.1.0/examples/reports
+copying examples/test-results/build.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/clean-cli.json -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/format.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/lint.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/live-test.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/locked-sync.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/mock-generation.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/offline-tests.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/packages.json -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/security.json -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/syntax.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/types.txt -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/verification.json -> material_review_scheduling_agent-0.1.0/examples/test-results
+copying examples/test-results/context/build.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/clean-cli.json -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/format.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/lint.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/live-accounting.json -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/locked-sync.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/offline-tests.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/packages.json -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/security.json -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/syntax.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/types.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/context/verification.json -> material_review_scheduling_agent-0.1.0/examples/test-results/context
+copying examples/test-results/hardening-20261030T231921/compile.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/hardening-20261030T231921
+copying examples/test-results/hardening-20261030T231921/directed.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/hardening-20261030T231921
+copying examples/test-results/hardening-20261030T231921/format.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/hardening-20261030T231921
+copying examples/test-results/hardening-20261030T231921/mypy.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/hardening-20261030T231921
+copying examples/test-results/hardening-20261030T231921/pytest.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/hardening-20261030T231921
+copying examples/test-results/hardening-20261030T231921/ruff.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/hardening-20261030T231921
+copying examples/test-results/readability/build.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/clean-cli.json -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/format.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/lint.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/live-test.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/locked-sync.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/offline-tests.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/packages.json -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/security.json -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/syntax.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/types.txt -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/test-results/readability/verification.json -> material_review_scheduling_agent-0.1.0/examples/test-results/readability
+copying examples/traces/history/first-confirmation/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/first-confirmation
+copying examples/traces/history/live-20261029T092011Z/changed.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-20261029T092011Z
+copying examples/traces/history/live-20261029T092011Z/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-20261029T092011Z
+copying examples/traces/history/live-20261029T092011Z/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-20261029T092011Z
+copying examples/traces/history/live-20261029T092011Z/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-20261029T092011Z
+copying examples/traces/history/live-20261029T092011Z/risk.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-20261029T092011Z
+copying examples/traces/history/live-20261029T092011Z/save_failure.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-20261029T092011Z
+copying examples/traces/history/live-before-20261029T101144Z/changed.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101144Z
+copying examples/traces/history/live-before-20261029T101144Z/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101144Z
+copying examples/traces/history/live-before-20261029T101144Z/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101144Z
+copying examples/traces/history/live-before-20261029T101144Z/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101144Z
+copying examples/traces/history/live-before-20261029T101144Z/risk.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101144Z
+copying examples/traces/history/live-before-20261029T101144Z/save_failure.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101144Z
+copying examples/traces/history/live-before-20261029T101248Z/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101248Z
+copying examples/traces/history/live-before-20261029T101248Z/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/live-before-20261029T101248Z
+copying examples/traces/history/mock-before-20261029T092846Z/changed.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T092846Z
+copying examples/traces/history/mock-before-20261029T092846Z/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T092846Z
+copying examples/traces/history/mock-before-20261029T092846Z/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T092846Z
+copying examples/traces/history/mock-before-20261029T092846Z/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T092846Z
+copying examples/traces/history/mock-before-20261029T092846Z/risk.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T092846Z
+copying examples/traces/history/mock-before-20261029T092846Z/save_failure.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T092846Z
+copying examples/traces/history/mock-before-20261029T101400Z/changed.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T101400Z
+copying examples/traces/history/mock-before-20261029T101400Z/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T101400Z
+copying examples/traces/history/mock-before-20261029T101400Z/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T101400Z
+copying examples/traces/history/mock-before-20261029T101400Z/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T101400Z
+copying examples/traces/history/mock-before-20261029T101400Z/risk.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T101400Z
+copying examples/traces/history/mock-before-20261029T101400Z/save_failure.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/history/mock-before-20261029T101400Z
+copying examples/traces/live/changed.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/live
+copying examples/traces/live/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/live
+copying examples/traces/live/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/live
+copying examples/traces/live/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/live
+copying examples/traces/live/risk.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/live
+copying examples/traces/live/save_failure.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/live
+copying examples/traces/mock/changed.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/mock
+copying examples/traces/mock/conflict.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/mock
+copying examples/traces/mock/missing.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/mock
+copying examples/traces/mock/normal.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/mock
+copying examples/traces/mock/risk.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/mock
+copying examples/traces/mock/save_failure.jsonl -> material_review_scheduling_agent-0.1.0/examples/traces/mock
+copying scripts/evaluate_context.py -> material_review_scheduling_agent-0.1.0/scripts
+copying scripts/generate_examples.py -> material_review_scheduling_agent-0.1.0/scripts
+copying src/material_review_scheduling_agent.egg-info/PKG-INFO -> material_review_scheduling_agent-0.1.0/src/material_review_scheduling_agent.egg-info
+copying src/material_review_scheduling_agent.egg-info/SOURCES.txt -> material_review_scheduling_agent-0.1.0/src/material_review_scheduling_agent.egg-info
+copying src/material_review_scheduling_agent.egg-info/dependency_links.txt -> material_review_scheduling_agent-0.1.0/src/material_review_scheduling_agent.egg-info
+copying src/material_review_scheduling_agent.egg-info/entry_points.txt -> material_review_scheduling_agent-0.1.0/src/material_review_scheduling_agent.egg-info
+copying src/material_review_scheduling_agent.egg-info/requires.txt -> material_review_scheduling_agent-0.1.0/src/material_review_scheduling_agent.egg-info
+copying src/material_review_scheduling_agent.egg-info/top_level.txt -> material_review_scheduling_agent-0.1.0/src/material_review_scheduling_agent.egg-info
+copying src/material_scheduler/__init__.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler
+copying src/material_scheduler/__main__.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler
+copying src/material_scheduler/bootstrap.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler
+copying src/material_scheduler/config.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler
+copying src/material_scheduler/application/__init__.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/application
+copying src/material_scheduler/application/context.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/application
+copying src/material_scheduler/application/ports.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/application
+copying src/material_scheduler/application/service.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/application
+copying src/material_scheduler/application/tools.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/application
+copying src/material_scheduler/application/trace_view.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/application
+copying src/material_scheduler/application/agent/graph.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/application/agent
+copying src/material_scheduler/domain/__init__.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/domain
+copying src/material_scheduler/domain/errors.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/domain
+copying src/material_scheduler/domain/models.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/domain
+copying src/material_scheduler/domain/policies.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/domain
+copying src/material_scheduler/infrastructure/__init__.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure
+copying src/material_scheduler/infrastructure/catalog.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure
+copying src/material_scheduler/infrastructure/trace.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure
+copying src/material_scheduler/infrastructure/model/deepseek.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure/model
+copying src/material_scheduler/infrastructure/model/mock.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure/model
+copying src/material_scheduler/infrastructure/persistence/memory.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure/persistence
+copying src/material_scheduler/infrastructure/persistence/repository.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/infrastructure/persistence
+copying src/material_scheduler/interfaces/__init__.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/interfaces
+copying src/material_scheduler/interfaces/cli.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/interfaces
+copying src/material_scheduler/interfaces/presenters.py -> material_review_scheduling_agent-0.1.0/src/material_scheduler/interfaces
+copying tests/README.md -> material_review_scheduling_agent-0.1.0/tests
+copying tests/conftest.py -> material_review_scheduling_agent-0.1.0/tests
+copying tests/acceptance/test_cli.py -> material_review_scheduling_agent-0.1.0/tests/acceptance
+copying tests/acceptance/test_required_scenarios.py -> material_review_scheduling_agent-0.1.0/tests/acceptance
+copying tests/integration/test_confirmation_resume.py -> material_review_scheduling_agent-0.1.0/tests/integration
+copying tests/integration/test_memory.py -> material_review_scheduling_agent-0.1.0/tests/integration
+copying tests/integration/test_model_protocol.py -> material_review_scheduling_agent-0.1.0/tests/integration
+copying tests/integration/test_repository.py -> material_review_scheduling_agent-0.1.0/tests/integration
+copying tests/live/test_deepseek_paths.py -> material_review_scheduling_agent-0.1.0/tests/live
+copying tests/unit/test_agent_budget.py -> material_review_scheduling_agent-0.1.0/tests/unit
+copying tests/unit/test_context.py -> material_review_scheduling_agent-0.1.0/tests/unit
+copying tests/unit/test_local_env.py -> material_review_scheduling_agent-0.1.0/tests/unit
+copying tests/unit/test_tools.py -> material_review_scheduling_agent-0.1.0/tests/unit
+Writing material_review_scheduling_agent-0.1.0/setup.cfg
+Creating tar archive
+removing 'material_review_scheduling_agent-0.1.0' (and everything under it)
+Building wheel from source distribution...
+running egg_info
+writing src/material_review_scheduling_agent.egg-info/PKG-INFO
+writing dependency_links to src/material_review_scheduling_agent.egg-info/dependency_links.txt
+writing entry points to src/material_review_scheduling_agent.egg-info/entry_points.txt
+writing requirements to src/material_review_scheduling_agent.egg-info/requires.txt
+writing top-level names to src/material_review_scheduling_agent.egg-info/top_level.txt
+reading manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+running bdist_wheel
+running build
+running build_py
+creating build/lib/material_scheduler
+copying src/material_scheduler/bootstrap.py -> build/lib/material_scheduler
+copying src/material_scheduler/config.py -> build/lib/material_scheduler
+copying src/material_scheduler/__init__.py -> build/lib/material_scheduler
+copying src/material_scheduler/__main__.py -> build/lib/material_scheduler
+creating build/lib/material_scheduler/application
+copying src/material_scheduler/application/service.py -> build/lib/material_scheduler/application
+copying src/material_scheduler/application/tools.py -> build/lib/material_scheduler/application
+copying src/material_scheduler/application/ports.py -> build/lib/material_scheduler/application
+copying src/material_scheduler/application/__init__.py -> build/lib/material_scheduler/application
+copying src/material_scheduler/application/context.py -> build/lib/material_scheduler/application
+copying src/material_scheduler/application/trace_view.py -> build/lib/material_scheduler/application
+creating build/lib/material_scheduler/infrastructure
+copying src/material_scheduler/infrastructure/catalog.py -> build/lib/material_scheduler/infrastructure
+copying src/material_scheduler/infrastructure/trace.py -> build/lib/material_scheduler/infrastructure
+copying src/material_scheduler/infrastructure/__init__.py -> build/lib/material_scheduler/infrastructure
+creating build/lib/material_scheduler/domain
+copying src/material_scheduler/domain/models.py -> build/lib/material_scheduler/domain
+copying src/material_scheduler/domain/__init__.py -> build/lib/material_scheduler/domain
+copying src/material_scheduler/domain/errors.py -> build/lib/material_scheduler/domain
+copying src/material_scheduler/domain/policies.py -> build/lib/material_scheduler/domain
+creating build/lib/material_scheduler/interfaces
+copying src/material_scheduler/interfaces/__init__.py -> build/lib/material_scheduler/interfaces
+copying src/material_scheduler/interfaces/presenters.py -> build/lib/material_scheduler/interfaces
+copying src/material_scheduler/interfaces/cli.py -> build/lib/material_scheduler/interfaces
+creating build/lib/material_scheduler/application/agent
+copying src/material_scheduler/application/agent/graph.py -> build/lib/material_scheduler/application/agent
+creating build/lib/material_scheduler/infrastructure/persistence
+copying src/material_scheduler/infrastructure/persistence/memory.py -> build/lib/material_scheduler/infrastructure/persistence
+copying src/material_scheduler/infrastructure/persistence/repository.py -> build/lib/material_scheduler/infrastructure/persistence
+creating build/lib/material_scheduler/infrastructure/model
+copying src/material_scheduler/infrastructure/model/deepseek.py -> build/lib/material_scheduler/infrastructure/model
+copying src/material_scheduler/infrastructure/model/mock.py -> build/lib/material_scheduler/infrastructure/model
+running egg_info
+writing src/material_review_scheduling_agent.egg-info/PKG-INFO
+writing dependency_links to src/material_review_scheduling_agent.egg-info/dependency_links.txt
+writing entry points to src/material_review_scheduling_agent.egg-info/entry_points.txt
+writing requirements to src/material_review_scheduling_agent.egg-info/requires.txt
+writing top-level names to src/material_review_scheduling_agent.egg-info/top_level.txt
+reading manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/material_review_scheduling_agent.egg-info/SOURCES.txt'
+installing to build/bdist.macosx-26.0-arm64/wheel
+running install
+running install_lib
+creating build/bdist.macosx-26.0-arm64/wheel
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler
+copying build/lib/material_scheduler/bootstrap.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler
+copying build/lib/material_scheduler/config.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler
+copying build/lib/material_scheduler/__init__.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler/application
+copying build/lib/material_scheduler/application/service.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/application
+copying build/lib/material_scheduler/application/tools.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/application
+copying build/lib/material_scheduler/application/ports.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/application
+copying build/lib/material_scheduler/application/__init__.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/application
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler/application/agent
+copying build/lib/material_scheduler/application/agent/graph.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/application/agent
+copying build/lib/material_scheduler/application/context.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/application
+copying build/lib/material_scheduler/application/trace_view.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/application
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler/infrastructure
+copying build/lib/material_scheduler/infrastructure/catalog.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/infrastructure
+copying build/lib/material_scheduler/infrastructure/trace.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/infrastructure
+copying build/lib/material_scheduler/infrastructure/__init__.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/infrastructure
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler/infrastructure/persistence
+copying build/lib/material_scheduler/infrastructure/persistence/memory.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/infrastructure/persistence
+copying build/lib/material_scheduler/infrastructure/persistence/repository.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/infrastructure/persistence
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler/infrastructure/model
+copying build/lib/material_scheduler/infrastructure/model/deepseek.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/infrastructure/model
+copying build/lib/material_scheduler/infrastructure/model/mock.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/infrastructure/model
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler/domain
+copying build/lib/material_scheduler/domain/models.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/domain
+copying build/lib/material_scheduler/domain/__init__.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/domain
+copying build/lib/material_scheduler/domain/errors.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/domain
+copying build/lib/material_scheduler/domain/policies.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/domain
+copying build/lib/material_scheduler/__main__.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler
+creating build/bdist.macosx-26.0-arm64/wheel/material_scheduler/interfaces
+copying build/lib/material_scheduler/interfaces/__init__.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/interfaces
+copying build/lib/material_scheduler/interfaces/presenters.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/interfaces
+copying build/lib/material_scheduler/interfaces/cli.py -> build/bdist.macosx-26.0-arm64/wheel/./material_scheduler/interfaces
+running install_egg_info
+Copying src/material_review_scheduling_agent.egg-info to build/bdist.macosx-26.0-arm64/wheel/./material_review_scheduling_agent-0.1.0-py3.12.egg-info
+running install_scripts
+creating build/bdist.macosx-26.0-arm64/wheel/material_review_scheduling_agent-0.1.0.dist-info/WHEEL
+creating '/Users/xyh/Desktop/小影笔试项目/examples/test-results/hardening-20261030T231921/dist/.tmp-xryfbl_d/material_review_scheduling_agent-0.1.0-py3-none-any.whl' and adding 'build/bdist.macosx-26.0-arm64/wheel' to it
+adding 'material_scheduler/__init__.py'
+adding 'material_scheduler/__main__.py'
+adding 'material_scheduler/bootstrap.py'
+adding 'material_scheduler/config.py'
+adding 'material_scheduler/application/__init__.py'
+adding 'material_scheduler/application/context.py'
+adding 'material_scheduler/application/ports.py'
+adding 'material_scheduler/application/service.py'
+adding 'material_scheduler/application/tools.py'
+adding 'material_scheduler/application/trace_view.py'
+adding 'material_scheduler/application/agent/graph.py'
+adding 'material_scheduler/domain/__init__.py'
+adding 'material_scheduler/domain/errors.py'
+adding 'material_scheduler/domain/models.py'
+adding 'material_scheduler/domain/policies.py'
+adding 'material_scheduler/infrastructure/__init__.py'
+adding 'material_scheduler/infrastructure/catalog.py'
+adding 'material_scheduler/infrastructure/trace.py'
+adding 'material_scheduler/infrastructure/model/deepseek.py'
+adding 'material_scheduler/infrastructure/model/mock.py'
+adding 'material_scheduler/infrastructure/persistence/memory.py'
+adding 'material_scheduler/infrastructure/persistence/repository.py'
+adding 'material_scheduler/interfaces/__init__.py'
+adding 'material_scheduler/interfaces/cli.py'
+adding 'material_scheduler/interfaces/presenters.py'
+adding 'material_review_scheduling_agent-0.1.0.dist-info/METADATA'
+adding 'material_review_scheduling_agent-0.1.0.dist-info/WHEEL'
+adding 'material_review_scheduling_agent-0.1.0.dist-info/entry_points.txt'
+adding 'material_review_scheduling_agent-0.1.0.dist-info/top_level.txt'
+adding 'material_review_scheduling_agent-0.1.0.dist-info/RECORD'
+removing build/bdist.macosx-26.0-arm64/wheel
+Successfully built examples/test-results/hardening-20261030T231921/dist/material_review_scheduling_agent-0.1.0.tar.gz
+Successfully built examples/test-results/hardening-20261030T231921/dist/material_review_scheduling_agent-0.1.0-py3-none-any.whl
+
+exit_code=0

@@ -1,0 +1,28 @@
+{
+  "runs": [
+    {
+      "batch": "20261030T095009Z",
+      "actual_call_attempts": 56,
+      "cap": 60,
+      "baseline_reused": null
+    },
+    {
+      "batch": "20261030T095516Z",
+      "actual_call_attempts": 22,
+      "cap": 60,
+      "baseline_reused": "20261030T095009Z"
+    },
+    {
+      "batch": "20261030T095915738103Z",
+      "actual_call_attempts": 23,
+      "cap": 60,
+      "baseline_reused": "20261030T095009Z"
+    },
+    {
+      "batch": "long-fix-verification",
+      "actual_call_attempts": 4,
+      "cap": 6
+    }
+  ],
+  "total_actual_call_attempts": 105
+}

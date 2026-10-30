@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-29T10:16:59.656413+00:00",
+  "package_source": "/Users/xyh/Desktop/小影笔试项目/var/clean-venv/lib/python3.12/site-packages/material_scheduler/__init__.py",
+  "installation": "独立环境，从新版wheel非editable安装，依赖由uv.lock提供",
+  "checks": [
+    {
+      "name": "offline-tests",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/clean-venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ]
+    },
+    {
+      "name": "lint",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/clean-venv/bin/ruff",
+        "check",
+        "src",
+        "tests",
+        "scripts"
+      ]
+    },
+    {
+      "name": "format",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/clean-venv/bin/ruff",
+        "format",
+        "--check",
+        "src",
+        "tests",
+        "scripts"
+      ]
+    },
+    {
+      "name": "types",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/clean-venv/bin/mypy",
+        "src"
+      ]
+    },
+    {
+      "name": "syntax",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/clean-venv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts"
+      ]
+    }
+  ],
+  "clean_cli": "passed: 中文待确认、复制命令、保存、trace、JSON查询、读取真实证据；目录外独立进程"
+}

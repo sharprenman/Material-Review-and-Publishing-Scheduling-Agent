@@ -1,0 +1,15 @@
+{
+  "request_id": "long_metadata",
+  "run_id": "07075bab-0166-4752-9a3f-d6307c55a030",
+  "thread_id": "0c228de6-07fa-4a7a-84b3-172372592504",
+  "mode": "live",
+  "execution": "incomplete",
+  "requested_time": "2026-11-01T16:00:00+08:00",
+  "review": null,
+  "proposal": null,
+  "save_status": "not_saved",
+  "draft": null,
+  "error": "累计执行预算耗尽，执行未完成",
+  "model_calls": 16,
+  "tool_calls": 16
+}

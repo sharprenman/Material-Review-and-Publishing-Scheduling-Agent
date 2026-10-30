@@ -1,0 +1,199 @@
+{
+  "mode": "live",
+  "model": "deepseek-flash",
+  "batch_utc": "20261030T095915738103Z",
+  "calls_including_seed": 23,
+  "call_cap": 60,
+  "reused_baseline_batch": "20261030T095009Z",
+  "context_proxy_budget": 32000,
+  "title_chars_long_case": 7000,
+  "results": {
+    "baseline": {
+      "normal": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 3942,
+        "reported_prompt_tokens": 4875,
+        "reported_completion_tokens": 247,
+        "usage_complete": true,
+        "max_context_estimate": 5876,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "2781c16a-a943-4914-975e-fa6b657e782a",
+          "request_id": "normal",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T17:00:00+08:00"
+        }
+      },
+      "missing": {
+        "execution": "blocked",
+        "business_check_passed": true,
+        "model_calls": 3,
+        "tool_calls": 3,
+        "elapsed_ms": 3124,
+        "reported_prompt_tokens": 3413,
+        "reported_completion_tokens": 176,
+        "usage_complete": true,
+        "max_context_estimate": 4890,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": null
+      },
+      "conflict": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 8,
+        "tool_calls": 8,
+        "elapsed_ms": 7575,
+        "reported_prompt_tokens": 10064,
+        "reported_completion_tokens": 525,
+        "usage_complete": true,
+        "max_context_estimate": 6128,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "98109479-5348-4853-93ee-4a485ba0288e",
+          "request_id": "conflict",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T19:00:00+08:00"
+        }
+      },
+      "long_metadata": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 4401,
+        "reported_prompt_tokens": 15433,
+        "reported_completion_tokens": 271,
+        "usage_complete": true,
+        "max_context_estimate": 27013,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "f4549782-5794-42f2-92b8-435dc462bc38",
+          "request_id": "long_metadata",
+          "material_id": "M04",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T16:00:00+08:00"
+        }
+      }
+    },
+    "optimized": {
+      "normal": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 4194,
+        "reported_prompt_tokens": 7271,
+        "reported_completion_tokens": 257,
+        "usage_complete": true,
+        "max_context_estimate": 8365,
+        "compressed_pairs": 1,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "08ca8947-6e23-41ac-a734-f1e0cde456d5",
+          "request_id": "normal",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T17:00:00+08:00"
+        }
+      },
+      "missing": {
+        "execution": "blocked",
+        "business_check_passed": true,
+        "model_calls": 3,
+        "tool_calls": 3,
+        "elapsed_ms": 3111,
+        "reported_prompt_tokens": 5741,
+        "reported_completion_tokens": 195,
+        "usage_complete": true,
+        "max_context_estimate": 7896,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [
+          "seed_missing"
+        ],
+        "database_draft": null
+      },
+      "conflict": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 9,
+        "tool_calls": 9,
+        "elapsed_ms": 10638,
+        "reported_prompt_tokens": 23565,
+        "reported_completion_tokens": 579,
+        "usage_complete": true,
+        "max_context_estimate": 10868,
+        "compressed_pairs": 3,
+        "retrieved_source_requests": [
+          "normal"
+        ],
+        "database_draft": {
+          "draft_id": "775cfc00-01c2-4c46-bb0d-2217c826350e",
+          "request_id": "conflict",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T19:00:00+08:00"
+        }
+      },
+      "long_metadata": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 4915,
+        "reported_prompt_tokens": 8281,
+        "reported_completion_tokens": 270,
+        "usage_complete": true,
+        "max_context_estimate": 9724,
+        "compressed_pairs": 1,
+        "retrieved_source_requests": [
+          "normal"
+        ],
+        "database_draft": {
+          "draft_id": "ab3a2ee4-e171-4293-9ec8-e3bc6a6531bd",
+          "request_id": "long_metadata",
+          "material_id": "M04",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T16:00:00+08:00"
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "normal": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": -49.15,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    },
+    "missing": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": -68.21,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    },
+    "conflict": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": -134.15,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    },
+    "long_metadata": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": 46.34,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    }
+  },
+  "method": "同请求与合成资料，两套独立数据库；各自真实执行前置缺资料请求并重启；无自动重试"
+}

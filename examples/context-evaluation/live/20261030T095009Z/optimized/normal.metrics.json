@@ -1,0 +1,21 @@
+{
+  "execution": "completed",
+  "business_check_passed": true,
+  "model_calls": 4,
+  "tool_calls": 4,
+  "elapsed_ms": 3642,
+  "reported_prompt_tokens": 6879,
+  "reported_completion_tokens": 258,
+  "usage_complete": true,
+  "max_context_estimate": 7904,
+  "compressed_pairs": 1,
+  "retrieved_source_requests": [],
+  "database_draft": {
+    "draft_id": "3f238388-5783-4b73-9082-2f9839d98b23",
+    "request_id": "normal",
+    "material_id": "M01",
+    "channel": "video",
+    "account": "team",
+    "time": "2026-11-01T17:00:00+08:00"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "request_id": "conflict",
+  "run_id": "09e981de-63e2-47fa-bb79-3ac08d1087a4",
+  "thread_id": "19a29e6b-61bb-4344-805d-3f5716115c3f",
+  "mode": "live",
+  "execution": "incomplete",
+  "requested_time": "2026-11-01T18:00:00+08:00",
+  "review": null,
+  "proposal": null,
+  "save_status": "not_saved",
+  "draft": null,
+  "error": "模型协议、网络或累计预算失败",
+  "model_calls": 1,
+  "tool_calls": 0
+}

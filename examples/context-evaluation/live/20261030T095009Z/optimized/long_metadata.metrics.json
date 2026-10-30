@@ -1,0 +1,14 @@
+{
+  "execution": "incomplete",
+  "business_check_passed": false,
+  "model_calls": 16,
+  "tool_calls": 16,
+  "elapsed_ms": 18285,
+  "reported_prompt_tokens": 26152,
+  "reported_completion_tokens": 1008,
+  "usage_complete": true,
+  "max_context_estimate": 5703,
+  "compressed_pairs": 16,
+  "retrieved_source_requests": [],
+  "database_draft": null
+}

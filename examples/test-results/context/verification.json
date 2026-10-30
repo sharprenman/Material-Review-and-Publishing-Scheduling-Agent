@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-30T10:08:59.949882+00:00",
+  "package_source": "/Users/xyh/Desktop/小影笔试项目/var/context-clean-venv/lib/python3.12/site-packages/material_scheduler/__init__.py",
+  "installation": "独立环境，uv.lock依赖与非editable wheel",
+  "checks": [
+    {
+      "name": "offline-tests",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/context-clean-venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ]
+    },
+    {
+      "name": "lint",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/context-clean-venv/bin/ruff",
+        "check",
+        "src",
+        "tests",
+        "scripts"
+      ]
+    },
+    {
+      "name": "format",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/context-clean-venv/bin/ruff",
+        "format",
+        "--check",
+        "src",
+        "tests",
+        "scripts"
+      ]
+    },
+    {
+      "name": "types",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/context-clean-venv/bin/mypy",
+        "src"
+      ]
+    },
+    {
+      "name": "syntax",
+      "exit_code": 0,
+      "command": [
+        "/Users/xyh/Desktop/小影笔试项目/var/context-clean-venv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts"
+      ]
+    }
+  ],
+  "clean_cli": "passed: 独立进程确认恢复、上下文查看、跨请求案例检索、零调用超限、真实记录只读"
+}

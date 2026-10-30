@@ -1,0 +1,24 @@
+{
+  "request_id": "risk",
+  "run_id": "d81badfd-2104-42be-b480-8ec2da8e2b44",
+  "thread_id": "71338b06-67aa-4f4a-b7f0-623831e99bdb",
+  "mode": "live",
+  "execution": "blocked",
+  "requested_time": "2026-11-01T17:00:00+08:00",
+  "review": {
+    "status": "blocked",
+    "missing": [],
+    "risks": [
+      {
+        "rule_id": "CONTENT-01",
+        "reason": "命中禁止发布内容标签"
+      }
+    ]
+  },
+  "proposal": null,
+  "save_status": "not_saved",
+  "draft": null,
+  "error": null,
+  "model_calls": 3,
+  "tool_calls": 3
+}

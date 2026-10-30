@@ -1,0 +1,15 @@
+{
+  "request_id": "missing",
+  "run_id": "40c9ad2b-fc73-4939-a012-7093472ffa36",
+  "thread_id": "4591536d-8467-41a3-a198-ff901691e15d",
+  "mode": "live",
+  "execution": "incomplete",
+  "requested_time": "2026-11-01T17:00:00+08:00",
+  "review": null,
+  "proposal": null,
+  "save_status": "not_saved",
+  "draft": null,
+  "error": "missing",
+  "model_calls": 2,
+  "tool_calls": 2
+}

@@ -1,0 +1,6 @@
+$ uv pip check --python /Users/xyh/Desktop/小影笔试项目/var/hardening-20261030T231921/installed/bin/python
+Using Python 3.12.13 environment at: /Users/xyh/Desktop/小影笔试项目/var/hardening-20261030T231921/installed
+Checked 60 packages in 0.78ms
+All installed packages are compatible
+
+exit_code=0

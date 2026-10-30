@@ -1,0 +1,21 @@
+{
+  "request_id": "seed_missing",
+  "run_id": "e8f877dd-6e68-468e-bd32-df873f326d48",
+  "thread_id": "10c83d5d-9270-493f-8d41-101b4a43b241",
+  "mode": "mock",
+  "execution": "blocked",
+  "requested_time": "2026-11-01T17:00:00+08:00",
+  "review": {
+    "status": "missing",
+    "missing": [
+      "rights"
+    ],
+    "risks": []
+  },
+  "proposal": null,
+  "save_status": "not_saved",
+  "draft": null,
+  "error": null,
+  "model_calls": 3,
+  "tool_calls": 3
+}

@@ -1,0 +1,1 @@
+{"timestamp": "2026-10-29T09:20:22.771349+00:00", "run_id": "09e981de-63e2-47fa-bb79-3ac08d1087a4", "thread_id": "19a29e6b-61bb-4344-805d-3f5716115c3f", "mode": "live", "request_id": "conflict", "model": "deepseek-flash", "versions": {"langgraph": "1.2.18", "pydantic": "2.14.1", "httpx": "0.28.1"}, "event": "model_failure", "next_action": "end", "elapsed_ms": 1180}

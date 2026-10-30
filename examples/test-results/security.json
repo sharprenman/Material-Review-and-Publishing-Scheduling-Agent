@@ -1,0 +1,19 @@
+{
+  "candidate_file_count": 129,
+  "credential_found": false,
+  "package_scan": "passed",
+  "artifacts": [
+    "material_review_scheduling_agent-0.1.0.tar.gz",
+    "material_review_scheduling_agent-0.1.0-py3-none-any.whl",
+    ".gitignore"
+  ],
+  "ignore_rules_verified": [
+    "api_key.rtf",
+    ".env",
+    "var/business.sqlite",
+    ".idea/workspace.xml"
+  ],
+  "project_git": "not initialized; no tracked files or commit SHA",
+  "final_package_rescan": "passed",
+  "document_links": "passed"
+}

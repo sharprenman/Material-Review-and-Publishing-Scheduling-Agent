@@ -1,0 +1,6 @@
+$ uv venv --python /Users/xyh/Desktop/小影笔试项目/.venv/bin/python /Users/xyh/Desktop/小影笔试项目/var/hardening-20261030T231921/installed
+Using CPython 3.12.13 interpreter at: .venv/bin/python
+Creating virtual environment at: var/hardening-20261030T231921/installed
+Activate with: source var/hardening-20261030T231921/installed/bin/activate
+
+exit_code=0

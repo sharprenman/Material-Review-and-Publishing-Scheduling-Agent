@@ -1,0 +1,24 @@
+{
+  "request_id": "conflict",
+  "run_id": "72921842-2017-415c-976c-e09eecdbb3cb",
+  "thread_id": "ff33f094-2b31-4bea-89bd-b7b7796420f4",
+  "mode": "mock",
+  "execution": "waiting_confirmation",
+  "requested_time": "2026-11-01T18:00:00+08:00",
+  "review": {
+    "status": "passed",
+    "missing": [],
+    "risks": []
+  },
+  "proposal": {
+    "proposal_id": "0f9949b9-6a54-4521-bf6a-d0326b9b7658",
+    "version": 1,
+    "time": "2026-11-01T19:00:00+08:00",
+    "confirmation": "pending"
+  },
+  "save_status": "not_saved",
+  "draft": null,
+  "error": null,
+  "model_calls": 4,
+  "tool_calls": 4
+}

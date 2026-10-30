@@ -1,0 +1,21 @@
+{
+  "request_id": "missing",
+  "run_id": "790d38ab-10ec-4ed9-be1d-03891dd1134c",
+  "thread_id": "38cc6e33-baae-48b2-a421-6f48bf09dfa0",
+  "mode": "live",
+  "execution": "blocked",
+  "requested_time": "2026-11-01T17:00:00+08:00",
+  "review": {
+    "status": "missing",
+    "missing": [
+      "rights"
+    ],
+    "risks": []
+  },
+  "proposal": null,
+  "save_status": "not_saved",
+  "draft": null,
+  "error": null,
+  "model_calls": 3,
+  "tool_calls": 3
+}

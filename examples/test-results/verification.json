@@ -1,0 +1,61 @@
+{
+  "timestamp_utc": "2026-10-29T09:27:37.529129+00:00",
+  "package_source": "/Users/xyh/Desktop/小影笔试项目/var/clean-venv/lib/python3.12/site-packages/material_scheduler/__init__.py",
+  "installation": "独立环境，先锁定安装依赖，再从wheel非editable安装项目",
+  "checks": [
+    {
+      "name": "offline-tests",
+      "command": [
+        "var/clean-venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "lint",
+      "command": [
+        "var/clean-venv/bin/ruff",
+        "check",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "format",
+      "command": [
+        "var/clean-venv/bin/ruff",
+        "format",
+        "--check",
+        "src",
+        "tests",
+        "scripts"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "types",
+      "command": [
+        "var/clean-venv/bin/mypy",
+        "src"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "syntax",
+      "command": [
+        "var/clean-venv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "clean_cli": "passed: six separate CLI processes, outside project directory"
+}

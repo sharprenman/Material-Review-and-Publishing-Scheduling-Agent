@@ -1,0 +1,6 @@
+{"case": "normal", "execution": "completed", "model_calls": 4, "tool_calls": 4}
+{"case": "missing", "execution": "blocked", "model_calls": 3, "tool_calls": 3}
+{"case": "risk", "execution": "blocked", "model_calls": 3, "tool_calls": 3}
+{"case": "conflict", "execution": "waiting_confirmation", "model_calls": 4, "tool_calls": 4}
+{"case": "changed", "execution": "waiting_confirmation", "model_calls": 4, "tool_calls": 4}
+{"case": "save_failure", "execution": "failed", "model_calls": 4, "tool_calls": 4}

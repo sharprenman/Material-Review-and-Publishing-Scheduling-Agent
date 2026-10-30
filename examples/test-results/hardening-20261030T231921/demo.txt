@@ -1,0 +1,3 @@
+{"controlled_model": true, "errors": [{"error": "必须选择最早可用候选，请依据 query_slots 调整"}], "facts": {"drafts": 1, "owned_slots": 1, "request_execution": "completed"}}
+
+exit_code=0

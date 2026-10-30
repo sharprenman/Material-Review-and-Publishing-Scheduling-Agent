@@ -1,0 +1,19 @@
+{
+  "request_id": "save_failure",
+  "run_id": "ab43401a-ec97-48c3-aaec-8338e7d724f1",
+  "thread_id": "810fe2dc-4900-467f-ad23-c77c236c2d0b",
+  "mode": "mock",
+  "execution": "failed",
+  "requested_time": "2026-11-01T17:00:00+08:00",
+  "review": {
+    "status": "passed",
+    "missing": [],
+    "risks": []
+  },
+  "proposal": null,
+  "save_status": "failed",
+  "draft": null,
+  "error": "工具执行失败；未确认保存成功",
+  "model_calls": 4,
+  "tool_calls": 4
+}

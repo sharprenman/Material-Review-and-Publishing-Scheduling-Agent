@@ -1,0 +1,48 @@
+{
+  "mode": "mock",
+  "batch_utc": "20261029T101400Z",
+  "isolation": "每个用例独立业务库及检查点库",
+  "model": "offline-test-double",
+  "real_call_cap": null,
+  "real_calls": 0,
+  "save_failure": "真实SQLite触发器注入写失败并验证回滚；非真实磁盘故障",
+  "changed": "在初始18点占用之外，真实插入19点占用，再执行模型流程",
+  "cases": [
+    {
+      "case": "normal",
+      "execution": "completed",
+      "model_calls": 4,
+      "tool_calls": 4
+    },
+    {
+      "case": "missing",
+      "execution": "blocked",
+      "model_calls": 3,
+      "tool_calls": 3
+    },
+    {
+      "case": "risk",
+      "execution": "blocked",
+      "model_calls": 3,
+      "tool_calls": 3
+    },
+    {
+      "case": "conflict",
+      "execution": "waiting_confirmation",
+      "model_calls": 4,
+      "tool_calls": 4
+    },
+    {
+      "case": "changed",
+      "execution": "waiting_confirmation",
+      "model_calls": 4,
+      "tool_calls": 4
+    },
+    {
+      "case": "save_failure",
+      "execution": "failed",
+      "model_calls": 4,
+      "tool_calls": 4
+    }
+  ]
+}

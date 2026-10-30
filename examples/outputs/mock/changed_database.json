@@ -1,0 +1,18 @@
+{
+  "draft": null,
+  "reservations": [
+    {
+      "channel": "video",
+      "account": "team",
+      "time": "2026-11-01T18:00:00+08:00",
+      "owner": "seed"
+    },
+    {
+      "channel": "video",
+      "account": "team",
+      "time": "2026-11-01T19:00:00+08:00",
+      "owner": "evidence"
+    }
+  ],
+  "draft_count": 0
+}

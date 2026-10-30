@@ -1,0 +1,23 @@
+{
+  "execution": "completed",
+  "business_check_passed": true,
+  "model_calls": 8,
+  "tool_calls": 8,
+  "elapsed_ms": 48,
+  "reported_prompt_tokens": null,
+  "reported_completion_tokens": null,
+  "usage_complete": false,
+  "max_context_estimate": 8522,
+  "compressed_pairs": 2,
+  "retrieved_source_requests": [
+    "normal"
+  ],
+  "database_draft": {
+    "draft_id": "a8f52bdf-b0fb-4fa4-a78f-02d88d83c593",
+    "request_id": "conflict",
+    "material_id": "M01",
+    "channel": "video",
+    "account": "team",
+    "time": "2026-11-01T19:00:00+08:00"
+  }
+}

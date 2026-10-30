@@ -1,0 +1,25 @@
+{
+  "draft": {
+    "draft_id": "01f08e14-5b63-453d-9d84-6df4089c7e8a",
+    "request_id": "normal",
+    "material_id": "M01",
+    "channel": "video",
+    "account": "team",
+    "time": "2026-11-01T17:00:00+08:00"
+  },
+  "reservations": [
+    {
+      "channel": "video",
+      "account": "team",
+      "time": "2026-11-01T17:00:00+08:00",
+      "owner": "normal"
+    },
+    {
+      "channel": "video",
+      "account": "team",
+      "time": "2026-11-01T18:00:00+08:00",
+      "owner": "seed"
+    }
+  ],
+  "draft_count": 1
+}

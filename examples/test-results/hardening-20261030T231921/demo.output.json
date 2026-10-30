@@ -1,0 +1,26 @@
+{
+  "request_id": "hardening-demo",
+  "run_id": "3e59f709-3d46-48a8-a377-7a472d656565",
+  "thread_id": "9c888446-5695-49e2-861d-d7f581414fd3",
+  "mode": "mock",
+  "execution": "completed",
+  "requested_time": "2026-11-01T17:00:00+08:00",
+  "review": {
+    "status": "passed",
+    "missing": [],
+    "risks": []
+  },
+  "proposal": null,
+  "save_status": "saved",
+  "draft": {
+    "draft_id": "fafa0059-28e5-4309-9fdc-2be8f42ff29d",
+    "request_id": "hardening-demo",
+    "material_id": "M01",
+    "channel": "video",
+    "account": "team",
+    "time": "2026-11-01T17:00:00+08:00"
+  },
+  "error": null,
+  "model_calls": 5,
+  "tool_calls": 5
+}

@@ -1,0 +1,16 @@
+{
+  "execution": "blocked",
+  "business_check_passed": true,
+  "model_calls": 3,
+  "tool_calls": 3,
+  "elapsed_ms": 3111,
+  "reported_prompt_tokens": 5741,
+  "reported_completion_tokens": 195,
+  "usage_complete": true,
+  "max_context_estimate": 7896,
+  "compressed_pairs": 0,
+  "retrieved_source_requests": [
+    "seed_missing"
+  ],
+  "database_draft": null
+}

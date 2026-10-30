@@ -1,0 +1,199 @@
+{
+  "mode": "mock",
+  "model": "offline-test-double",
+  "batch_utc": "20261030T094914Z",
+  "calls_including_seed": 44,
+  "call_cap": 60,
+  "context_proxy_budget": 32000,
+  "title_chars_long_case": 6000,
+  "results": {
+    "baseline": {
+      "normal": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 21,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 5767,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "069bf5f4-17b6-48e2-854f-2d48ccda2773",
+          "request_id": "normal",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T17:00:00+08:00"
+        }
+      },
+      "missing": {
+        "execution": "blocked",
+        "business_check_passed": true,
+        "model_calls": 3,
+        "tool_calls": 3,
+        "elapsed_ms": 17,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 4886,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": null
+      },
+      "conflict": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 8,
+        "tool_calls": 8,
+        "elapsed_ms": 46,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 5902,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "69f00402-f377-4659-ae1d-8a7ead871892",
+          "request_id": "conflict",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T19:00:00+08:00"
+        }
+      },
+      "long_metadata": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 21,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 23828,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "674e9180-2f5e-4688-868e-e44217bb13c8",
+          "request_id": "long_metadata",
+          "material_id": "M04",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T16:00:00+08:00"
+        }
+      }
+    },
+    "optimized": {
+      "normal": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 23,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 7831,
+        "compressed_pairs": 1,
+        "retrieved_source_requests": [],
+        "database_draft": {
+          "draft_id": "fe33f802-2c0d-4604-86b2-82aa2db55fe0",
+          "request_id": "normal",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T17:00:00+08:00"
+        }
+      },
+      "missing": {
+        "execution": "blocked",
+        "business_check_passed": true,
+        "model_calls": 3,
+        "tool_calls": 3,
+        "elapsed_ms": 18,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 7350,
+        "compressed_pairs": 0,
+        "retrieved_source_requests": [
+          "normal",
+          "seed_missing"
+        ],
+        "database_draft": null
+      },
+      "conflict": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 8,
+        "tool_calls": 8,
+        "elapsed_ms": 48,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 8522,
+        "compressed_pairs": 2,
+        "retrieved_source_requests": [
+          "normal"
+        ],
+        "database_draft": {
+          "draft_id": "a8f52bdf-b0fb-4fa4-a78f-02d88d83c593",
+          "request_id": "conflict",
+          "material_id": "M01",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T19:00:00+08:00"
+        }
+      },
+      "long_metadata": {
+        "execution": "completed",
+        "business_check_passed": true,
+        "model_calls": 4,
+        "tool_calls": 4,
+        "elapsed_ms": 22,
+        "reported_prompt_tokens": null,
+        "reported_completion_tokens": null,
+        "usage_complete": false,
+        "max_context_estimate": 24413,
+        "compressed_pairs": 1,
+        "retrieved_source_requests": [
+          "normal"
+        ],
+        "database_draft": {
+          "draft_id": "ccb13c37-83cb-4c7a-ac96-bf5f77b2b81c",
+          "request_id": "long_metadata",
+          "material_id": "M04",
+          "channel": "video",
+          "account": "team",
+          "time": "2026-11-01T16:00:00+08:00"
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "normal": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": null,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    },
+    "missing": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": null,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    },
+    "conflict": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": null,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    },
+    "long_metadata": {
+      "both_business_checks_passed": true,
+      "prompt_token_reduction_percent": null,
+      "note": "负数代表优化版输入更多；单次样本，不代表稳定收益"
+    }
+  },
+  "method": "同请求与合成资料，两套独立数据库；各自真实执行前置缺资料请求并重启；无自动重试"
+}

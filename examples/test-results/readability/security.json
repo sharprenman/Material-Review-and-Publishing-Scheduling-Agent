@@ -1,0 +1,8 @@
+{
+  "candidate_files_scanned": 223,
+  "credential_found": false,
+  "document_links": "passed",
+  "historical_trace_byte_comparisons_passed": 27,
+  "live_rationale_sources_and_response_ids": "passed",
+  "git": "not initialized; no push"
+}

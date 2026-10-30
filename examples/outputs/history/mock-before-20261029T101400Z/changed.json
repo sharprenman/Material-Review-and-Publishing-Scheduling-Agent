@@ -1,0 +1,24 @@
+{
+  "request_id": "changed",
+  "run_id": "21df1d8f-1c2b-47ec-acb0-52951c92e259",
+  "thread_id": "79b3e21c-79cf-4fbb-8afb-5d7a9127e4dc",
+  "mode": "mock",
+  "execution": "waiting_confirmation",
+  "requested_time": "2026-11-01T18:00:00+08:00",
+  "review": {
+    "status": "passed",
+    "missing": [],
+    "risks": []
+  },
+  "proposal": {
+    "proposal_id": "f23d3e88-5300-408e-83d5-87e7a4d2d628",
+    "version": 1,
+    "time": "2026-11-01T20:00:00+08:00",
+    "confirmation": "pending"
+  },
+  "save_status": "not_saved",
+  "draft": null,
+  "error": null,
+  "model_calls": 4,
+  "tool_calls": 4
+}

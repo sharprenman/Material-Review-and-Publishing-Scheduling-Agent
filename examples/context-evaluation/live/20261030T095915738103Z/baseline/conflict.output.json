@@ -1,0 +1,31 @@
+{
+  "request_id": "conflict",
+  "run_id": "52b29045-e1b5-4acc-96de-d31ba91f8ac2",
+  "thread_id": "471bd6da-191b-44f4-834d-09656f51f79e",
+  "mode": "live",
+  "execution": "completed",
+  "requested_time": "2026-11-01T18:00:00+08:00",
+  "review": {
+    "status": "passed",
+    "missing": [],
+    "risks": []
+  },
+  "proposal": {
+    "proposal_id": "9b0c8c57-c89e-4c77-9be7-a20c929fa1e3",
+    "version": 1,
+    "time": "2026-11-01T19:00:00+08:00",
+    "confirmation": "accepted"
+  },
+  "save_status": "saved",
+  "draft": {
+    "draft_id": "98109479-5348-4853-93ee-4a485ba0288e",
+    "request_id": "conflict",
+    "material_id": "M01",
+    "channel": "video",
+    "account": "team",
+    "time": "2026-11-01T19:00:00+08:00"
+  },
+  "error": null,
+  "model_calls": 8,
+  "tool_calls": 8
+}
